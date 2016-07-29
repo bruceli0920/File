@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index1.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<script src="js/swiper-3.3.1.min.js"></script>
+</head>
+<body>
+     <div class="inner">
+     	<section>
+     		<div class="head">
+     			<p><</p>
+     			<p>商品列表</p>
+     			<p><img src="images/5_03_03.png" alt=""></p>
+     		</div>
+     	</section>
+     	<section>
+     		<div class="nav">
+     			<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide"><img src="images/5_03_07.png" /></div>
+				        <div class="swiper-slide"><img src="images/5_03_07.png" /></div>
+				        <div class="swiper-slide"><img src="images/5_03_07.png" /></div>			        
+				    </div>
+                 </div>
+     		</div>
+     	</section>
+        <section>
+        	<div class="main">
+        		<div class="list">
+        			<div><img src="images/5_03_11.png" /></div>
+        			<div><p>小米MAX全网通版</p><p>1499元</p></div>
+        		</div>
+        		<div class="list">
+        			<div><img src="images/5_03_11.png" /></div>
+        			<div><p>小米MAX全网通版</p><p>1499元</p></div>
+        		</div>
+        		<div class="list">
+        			<div><img src="images/5_03_11.png" /></div>
+        			<div><p>小米MAX全网通版</p><p>1499元</p></div>
+        		</div>
+        		
+        	</div>
+        </section>
+        <footer>
+        	<div class="foot"><img src="images/4_03.png" alt=""><span><a href="index.html">商城</a></span></div>
+            <div class="foot"><img src="images/4_05.png" alt=""><span><a href="index1.html">分类</a></span></div>
+            <div class="foot"><img src="images/4_07.png" alt=""><span><a href="index2.html">购物车</a></span></div>
+            <div class="foot"><img src="images/4_09.png" alt=""><span><a href="index3.html">服务</a></span></div>
+        
+        </footer>
+
+
+     </div>	
+</body>
+</html>
+<script>
+	new function(){
+		document.documentElement.style.fontSize = innerWidth/8+"px";
+		onresize=function(){
+			document.documentElement.style.fontSize=innerWidth/8+"px"
+        }
+	}
+
+</script>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 5000,//可选选项，自动滑动
+})
+</script>
